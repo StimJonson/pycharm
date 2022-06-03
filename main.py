@@ -27,4 +27,4 @@ for newPeriod in range(4, (newYear + year + 1)):
     print('Выплачено процентов:', round(kredit * i, 2))
     print('Выплачено основного долга:', round(payment - kredit * i, 2))
     kredit -= payment - kredit * i
-print('\nКредит погашен! Больше не надо брать этого дерьма!')
+print('\nКредит погашен! Больше не надо брать этого дерьма! Понял?')
